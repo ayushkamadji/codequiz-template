@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "noderepl index.js",
-    "test": "jest"
+    "start": "./noderepl index.js",
+    "test": "jest",
+    "watch-test": "jest --watch ."
   },
   "keywords": [],
   "author": "",

@@ -1,5 +1,5 @@
-const solution = require("./solution")
+const SUT = require("./solution")
 
 test("My Test", () => {
-  expect("hello").toBe("hello")
+  expect(SUT.solution()).toBe("hello world")
 })

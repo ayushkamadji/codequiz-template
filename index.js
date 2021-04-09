@@ -42,4 +42,6 @@ function randCollection(length, fn) {
 }
 
 // example
+// array of 5 random strings upto 1000 in length
 const rf = (maxLen) => () => randString(Math.floor(Math.random() * maxLen), charset)
+randCollection(5, rf(1000))
